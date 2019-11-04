@@ -25,7 +25,13 @@
       "html": {
         "minify": true
       },
-      "bundle": true,
+      "bundle": {
+        "inlineCss": true,
+        "inlineScripts": true,
+        "rewriteUrlsInTemplates": true,
+        "sourcemaps": true,
+        "stripComments": true
+      },
       "addServiceWorker": true,
       "addPushManifest": true,
       "insertPrefetchLinks": true
