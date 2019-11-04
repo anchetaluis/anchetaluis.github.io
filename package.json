@@ -8,7 +8,7 @@
   "scripts": {
     "serve": "polymer serve --port 8081",
     "start": "npm run serve | npm run watch",
-    "build": "polymer build",
+    "build": "polymer build --js-compile",
     "lint": "polymer lint",
     "test": "polymer test",
     "test:integration": "polymer build # test that psk builds without error with the CLI",
