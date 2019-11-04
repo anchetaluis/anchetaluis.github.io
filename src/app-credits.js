@@ -24,7 +24,7 @@ class AppCredits extends PolymerElement {
 
             <div class="main">
                 <h1>Credit where credit is due!</h1>
-                <h2>A shot-out and a special thanks to these awesome open-source projects which made building this site a quick and painless experience:</h2>
+                <h2>A shout-out and a special thanks to these awesome open-source projects which made building this site a quick and painless experience:</h2>
       
                 <div>
                     <h3>Communities</h3>
