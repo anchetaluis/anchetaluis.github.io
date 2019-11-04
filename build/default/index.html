@@ -24,7 +24,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
       Note: If you intend to serve from a non-root path, see [polymer-root-path] below.
     -->
-    <base href="/">
+    <base href="/build/dist/">
 
     <link rel="icon" href="images/favicon.ico">
 
@@ -71,7 +71,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 * and trailing slashes (e.g., `/my-app/`).
 */
 window.MyAppGlobals = {
-  rootPath: '/'
+  rootPath: '/build/dist/'
 }; // Load and register pre-caching Service Worker
 
 if ('serviceWorker' in navigator) {
