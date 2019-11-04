@@ -1,4 +1,4 @@
-var _templateObject_e1a86d20ff5711e9bc222d8a5b3a924f = /*#__PURE__*/ babelHelpers.taggedTemplateLiteral(["\n            <style include=\"shared-styles\">\n                :host {\n                  display: block;\n                  text-align: center;\n                }\n            </style>\n\n            <div class=\"main\">\n                <h1>Error: 404</h1>\n                <h2>Not Found</h2>\n          \n                <p>Oops! The requested page was not found. <a href=\"[[rootPath]]\">Head back to home.</a></p>\n            </div>\n    "]);
+var _templateObject_b3e30880ff5e11e9a11e5718f8a4c9dc = /*#__PURE__*/ babelHelpers.taggedTemplateLiteral(["\n            <style include=\"shared-styles\">\n                :host {\n                  display: block;\n                  text-align: center;\n                }\n            </style>\n\n            <div class=\"main\">\n                <h1>Error: 404</h1>\n                <h2>Not Found</h2>\n          \n                <p>Oops! The requested page was not found. <a href=\"[[rootPath]]\">Head back to home.</a></p>\n            </div>\n    "]);
 
 /**
  * @license
@@ -25,7 +25,7 @@ function (_PolymerElement) {
   babelHelpers.createClass(App404, null, [{
     key: "template",
     get: function get() {
-      return html(_templateObject_e1a86d20ff5711e9bc222d8a5b3a924f);
+      return html(_templateObject_b3e30880ff5e11e9a11e5718f8a4c9dc);
     }
   }]);
   return App404;
