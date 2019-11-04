@@ -1,7 +1,7 @@
 {
   "name": "Luis Ancheta | Web Developer",
   "short_name": "Luis Ancheta | Web Developer",
-  "description": "Luis Ancheta | Web Developer description",
+  "description": "Luis Ancheta | Web Developer",
   "icons": [
     {
       "src": "images/manifest/icon-192x192.png",
@@ -14,7 +14,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/",
+  "start_url": "/app-home",
   "display": "standalone",
   "theme_color": "#3f51b5",
   "background_color": "#3f51b5"
