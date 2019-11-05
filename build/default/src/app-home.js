@@ -1,4 +1,4 @@
-var _templateObject_b3e838a0ff5e11e9a11e5718f8a4c9dc = /*#__PURE__*/ babelHelpers.taggedTemplateLiteral(["\n            <style include=\"shared-styles\">\n\t\t\t\t:host {\n\t\t\t\t\tdisplay: block;\n\n\t\t\t\t\tpadding: 10px;\n\n\t\t\t\t\t--paper-icon-button: {\n\t\t\t\t\t\twidth: 3rem;\n\t\t\t\t\t\theight: 3rem;\n\t\t\t\t\t\tmargin: 6rem 2rem;\n\t\t\t\t\t\tpadding: 0;\n\t\t\t\t\t};\n\t\t\t\t}\n\n\t\t\t\t.social-media > a {\n\t\t\t\t\ttext-decoration: none;\n\t\t\t\t}\n\t\t\t\t\n\t\t\t\th2 {\n\t\t\t\t    margin-top: 2em;\n\t\t\t\t}\n            </style>\n    \n            <div class=\"main\">\n                <h1>Web Developer</h1>\n                <h2>HTML, CSS, JavaScript, XML, XSLT, SQL</h2>\n      \n                <div class=\"social-media\">\n                    <a href=\"https://github.com/Lewis1371\" rel=\"noopener noreferrer\" tabindex=\"-1\" target=\"_blank\">\n                        <paper-icon-button icon=\"social-media:github\"></paper-icon-button>\n                    </a>\n      \n                    <a href=\"https://www.linkedin.com/in/luisancheta\" rel=\"noopener noreferrer\" tabindex=\"-1\" target=\"_blank\">\n                        <paper-icon-button icon=\"social-media:linkedin\"></paper-icon-button>\n                    </a>\n                </div>\n            </div>\n    "]);
+var _templateObject_04e52460ff6011e9b4352bcf12c0202d = /*#__PURE__*/ babelHelpers.taggedTemplateLiteral(["\n            <style include=\"shared-styles\">\n\t\t\t\t:host {\n\t\t\t\t\tdisplay: block;\n\n\t\t\t\t\tpadding: 10px;\n\n\t\t\t\t\t--paper-icon-button: {\n\t\t\t\t\t\twidth: 3rem;\n\t\t\t\t\t\theight: 3rem;\n\t\t\t\t\t\tmargin: 6rem 2rem;\n\t\t\t\t\t\tpadding: 0;\n\t\t\t\t\t};\n\t\t\t\t}\n\n\t\t\t\t.social-media > a {\n\t\t\t\t\ttext-decoration: none;\n\t\t\t\t}\n\t\t\t\t\n\t\t\t\th2 {\n\t\t\t\t    margin-top: 2em;\n\t\t\t\t}\n            </style>\n    \n            <div class=\"main\">\n                <h1>Web Developer</h1>\n                <h2>HTML, CSS, JavaScript, XML, XSLT, SQL</h2>\n      \n                <div class=\"social-media\">\n                    <a href=\"https://github.com/Lewis1371\" rel=\"noopener noreferrer\" tabindex=\"-1\" target=\"_blank\">\n                        <paper-icon-button icon=\"social-media:github\"></paper-icon-button>\n                    </a>\n      \n                    <a href=\"https://www.linkedin.com/in/luisancheta\" rel=\"noopener noreferrer\" tabindex=\"-1\" target=\"_blank\">\n                        <paper-icon-button icon=\"social-media:linkedin\"></paper-icon-button>\n                    </a>\n                </div>\n            </div>\n    "]);
 
 /**
  * @license
@@ -27,7 +27,7 @@ function (_PolymerElement) {
   babelHelpers.createClass(AppHome, null, [{
     key: "template",
     get: function get() {
-      return html(_templateObject_b3e838a0ff5e11e9a11e5718f8a4c9dc);
+      return html(_templateObject_04e52460ff6011e9b4352bcf12c0202d);
     }
   }]);
   return AppHome;
