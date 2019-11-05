@@ -1,5 +1,4 @@
 {
-  "root": "anchetaluis.github.io",
   "entrypoint": "index.html",
   "shell": "src/my-app.js",
   "basePath": true,
