@@ -15,6 +15,7 @@
   "builds": [
     {
       "name": "es5-bundled",
+      "basePath": "/build/default/",
       "js": {
         "minify": true,
         "compile": true
