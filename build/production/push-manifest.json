@@ -1,0 +1,70 @@
+{
+  "src/my-app.js": {
+    "src/app-home.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "src/app-credits.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "src/app-404.js": {
+      "type": "script",
+      "weight": 1
+    }
+  },
+  "src/app-home.js": {
+    "src/my-app.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "src/app-home.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "src/app-credits.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "src/app-404.js": {
+      "type": "script",
+      "weight": 1
+    }
+  },
+  "src/app-credits.js": {
+    "src/my-app.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "src/app-home.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "src/app-credits.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "src/app-404.js": {
+      "type": "script",
+      "weight": 1
+    }
+  },
+  "src/app-404.js": {
+    "src/my-app.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "src/app-home.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "src/app-credits.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "src/app-404.js": {
+      "type": "script",
+      "weight": 1
+    }
+  }
+}
