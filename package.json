@@ -6,10 +6,10 @@
   "license": "BSD-3-Clause",
   "repository": "Polymer/polymer-starter-kit",
   "scripts": {
-    "serve": "polymer serve --port 8081",
-    "start": "npm run serve | npm run watch",
     "build": "polymer build",
     "lint": "polymer lint",
+    "serve": "polymer serve --port 8081",
+    "start": "npm run serve | npm run watch",
     "test": "polymer test",
     "test:integration": "polymer build # test that psk builds without error with the CLI",
     "watch": "browser-sync start --proxy localhost:8081 --files \"src/**/*.*, index.html, *.js\""
