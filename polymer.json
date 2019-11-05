@@ -1,6 +1,8 @@
 {
+  "root": "anchetaluis.github.io",
   "entrypoint": "index.html",
   "shell": "src/my-app.js",
+  "basePath": true,
   "sources": [
     "images/**/*",
     "src/**/*",
@@ -14,7 +16,7 @@
   ],
   "builds": [
     {
-      "name": "es5-bundled",
+      "name": "production",
       "js": {
         "minify": true,
         "compile": true
