@@ -8,14 +8,19 @@
     "package.json"
   ],
   "extraDependencies": [
-    "manifest.json"
+    "manifest.json",
+    "node_modules/@webcomponents/webcomponentsjs/*.js",
+    "!node_modules/@webcomponents/webcomponentsjs/gulpfile.js",
+    "node_modules/@webcomponents/webcomponentsjs/bundles/*.js"
   ],
   "builds": [
     {
+      "preset": "es5-bundled",
       "name": "production",
+      "bundle": true,
       "js": {
         "minify": true,
-        "compile": true
+        "compile": "es5"
       },
       "css": {
         "minify": true
@@ -23,16 +28,8 @@
       "html": {
         "minify": true
       },
-      "bundle": {
-        "inlineCss": true,
-        "inlineScripts": true,
-        "rewriteUrlsInTemplates": true,
-        "sourcemaps": true,
-        "stripComments": true
-      },
       "addServiceWorker": true,
-      "addPushManifest": true,
-      "insertPrefetchLinks": true
+      "addPushManifest": true
     }
   ],
   "moduleResolution": "node",
